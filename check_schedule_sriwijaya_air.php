@@ -28,12 +28,14 @@
   $passengerCount = $_GET['passenger_count'];
   $infantCount = $_GET['infant_count'];
 
-  // inject data
+  // sample query
+  /*
   $origin = "KOE";
   $destination = "CGK";
   $date = "21/08/2010";
   $passengerCount = "1";
   $infantCount = "0";
+  */
 
   // do access to sriwijaya air
   $curl = curl_init();
